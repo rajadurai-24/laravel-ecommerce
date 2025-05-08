@@ -111,6 +111,7 @@ class BrandResource extends Resource
             'index' => Pages\ListBrands::route('/'),
             'create' => Pages\CreateBrand::route('/create'),
             'edit' => Pages\EditBrand::route('/{record}/edit'),
+            
         ];
     }
 }
